@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-react-component-snapshots",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Disallows the use of React component snapshots.",
   "keywords": [
     "eslint",
