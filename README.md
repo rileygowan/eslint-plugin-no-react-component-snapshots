@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "no-react-component-snapshots/rule-name": 2
+    "no-react-component-snapshots/no-react-component-snapshots": 2
   }
 }
 ```
