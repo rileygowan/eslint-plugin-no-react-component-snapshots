@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-react-component-snapshots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallows the use of React component snapshots.",
   "keywords": [
     "eslint",
@@ -9,6 +9,10 @@
   ],
   "author": "Riley Gowan",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://npmjs.com/package/eslint-plugin-no-react-component-snapshots"
+  },
+  "repository": "git://github.com/rileygowan/eslint-plugin-no-react-component-snapshots",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests --recursive"
