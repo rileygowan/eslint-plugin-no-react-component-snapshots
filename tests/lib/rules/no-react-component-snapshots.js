@@ -23,7 +23,12 @@ const rule = require('../../../lib/rules/no-react-component-snapshots'),
 RuleTester.setDefaultConfig(defaultConfig);
 const ruleTester = new RuleTester();
 ruleTester.run('no-react-component-snapshots', rule, {
-  valid: ['exports[`Object matches snapshot`] = `\nObject {}`;'],
+  valid: [
+    {
+      code: 'exports[`Object matches snapshot`] = `\nObject {}`;',
+      filename: '/component.jsx.snap',
+    },
+  ],
 
   invalid: [
     {
@@ -34,6 +39,7 @@ ruleTester.run('no-react-component-snapshots', rule, {
           type: 'TemplateElement',
         },
       ],
+      filename: '/component.jsx.snap',
     },
   ],
 });
