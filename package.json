@@ -9,9 +9,6 @@
   ],
   "author": "Riley Gowan",
   "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://npmjs.com/package/eslint-plugin-no-react-component-snapshots"
-  },
   "repository": "git://github.com/rileygowan/eslint-plugin-no-react-component-snapshots",
   "scripts": {
     "lint": "eslint .",
