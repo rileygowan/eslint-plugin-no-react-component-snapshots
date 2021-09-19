@@ -1,5 +1,8 @@
 # eslint-plugin-no-react-component-snapshots
 
+[![Version](https://img.shields.io/npm/v/eslint-plugin-no-react-component-snapshots.svg)](https://www.npmjs.com/package/eslint-plugin-no-react-component-snapshots) [![Downloads](https://img.shields.io/npm/dm/eslint-plugin-no-react-component-snapshots.svg)](https://npmcharts.com/compare/eslint-plugin-no-react-component-snapshots?minimal=true)
+[![Node.js CI](https://github.com/rileygowan/eslint-plugin-no-react-component-snapshots/actions/workflows/node.js.yml/badge.svg)](https://github.com/rileygowan/eslint-plugin-no-react-component-snapshots/actions/workflows/node.js.yml)
+
 Disallows the use of React component snapshots—inline and external. 🚫⚛️📷
 
 ## Installation
@@ -8,11 +11,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 
 ```sh
 npm i eslint --save-dev
-```
-
-or
-
-```sh
+# or
 yarn add --dev eslint
 ```
 
@@ -20,11 +19,7 @@ Next, install `eslint-plugin-no-react-component-snapshots`:
 
 ```sh
 npm install eslint-plugin-no-react-component-snapshots --save-dev
-```
-
-or
-
-```sh
+# or
 yarn add --dev eslint-plugin-no-react-component-snapshots
 ```
 
@@ -38,7 +33,7 @@ Add `no-react-component-snapshots` to the plugins section of your `.eslintrc` co
 }
 ```
 
-Then configure the rules you want to use under the rules section.
+Then configure the rules you want to use under the rules section:
 
 ```json
 {
@@ -61,16 +56,10 @@ By default, `no-react-component-snapshots` will check all `.test.jsx`, `.test.ts
 }
 ```
 
-Once configured, inline and external snapshots will be announced by the messages
+Once configured, inline and external snapshots will be flagged with the following messages:
 
 ```sh
 Do not test React components with toMatchInlineSnapshot()
-```
-
-and
-
-```sh
+# and
 Do not test React components with toMatchSnapshot()
 ```
-
-, respectively.

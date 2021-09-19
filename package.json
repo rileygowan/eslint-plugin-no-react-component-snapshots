@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "Disallows the use of React component snapshots—inline and external.",
   "keywords": [
+    "jest",
     "react",
     "eslint",
     "snapshots",
@@ -15,9 +16,6 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
