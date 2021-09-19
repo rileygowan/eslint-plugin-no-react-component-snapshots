@@ -1,6 +1,6 @@
 # eslint-plugin-no-react-component-snapshots
 
-Disallows the use of React component snapshots—both inline and external. 🚫⚛️📷
+Disallows the use of React component snapshots—inline and external. 🚫⚛️📷
 
 ## Installation
 

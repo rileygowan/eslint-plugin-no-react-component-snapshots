@@ -1,9 +1,11 @@
 {
   "name": "eslint-plugin-no-react-component-snapshots",
   "version": "1.0.3",
-  "description": "Disallows the use of React component snapshots.",
+  "description": "Disallows the use of React component snapshots—inline and external.",
   "keywords": [
+    "react",
     "eslint",
+    "snapshots",
     "eslintplugin",
     "eslint-plugin"
   ],
@@ -24,10 +26,10 @@
     "mocha": "^9.0.0"
   },
   "engines": {
-    "node": "12.x || 14.x || >= 16"
+    "node": ">=10"
   },
   "peerDependencies": {
-    "eslint": ">=6"
+    "eslint": ">=5"
   },
   "license": "MIT"
 }
